@@ -5,7 +5,7 @@ pragma solidity ^0.8.17;
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/utils/structs/EnumerableSet.sol";
 
-// Contract for weighted voting using ERC20 token
+// Contract for weighted voting using ERC20 token //
 contract WeightedVoting is ERC20 {
     string private salt = "value"; // A private string variable
     using EnumerableSet for EnumerableSet.AddressSet; // Importing EnumerableSet for address set functionality
